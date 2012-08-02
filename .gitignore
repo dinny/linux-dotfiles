@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.profile
+!.ssh/
+.ssh/id_rsa*
+.ssh/*.pub
+!.ssh/config
+
