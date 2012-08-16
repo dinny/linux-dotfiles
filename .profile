@@ -32,14 +32,15 @@ fi
 if grep "Ubuntu" /etc/issue
 then
     # Ubuntu
-    DLS="~/Downloads"
+    DLS=~/Downloads
 elif grep "SUSE" /etc/issue
 then
     # SUSE(include openSUSE)
-    DLS="~/Download"
+    DLS=~/Download
 fi
 
-# Eclipes
+
+# Eclipse
 [ -d $DLS/eclipse ] && PATH="$DLS/eclipse:$PATH"
 
 # java runtime
@@ -47,7 +48,6 @@ fi
 
 # commandline tools for teamprise
 [ -d $DLS/teamprise/TEE-CLC-10.0.0 ] && PATH="$DLS/teamprise/TEE-CLC-10.0.0:$PATH"
-
 
 export PATH
 
