@@ -1,0 +1,34 @@
+#######################################################################
+#
+# How to install:
+#
+# sudo apt-get install $(grep -v "#" ~/.package-lists | egrep -v "^$")
+#
+#######################################################################
+
+# Develop environments
+autoconf
+automake
+build-essential
+curl
+genisoimage
+git
+git-completion
+libglib2.0-dev
+libgtk2.0-0
+libgtk2.0-dev
+libncurses5
+libssl-dev
+libtool
+p7zip-full
+uuid-dev
+
+# Markdown related toolsets
+discount
+dos2unix
+retext
+
+# Shell environments
+openssh-client
+vim
+zsh
